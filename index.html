@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/579fd210ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>CosmosCanvas</title>
+</head>
+<body>
+    <section class="mint">
+        <nav>
+            <div class="ul">
+                <ul>
+                    <li>X.com |</li>
+                    <li>Opeansea |</li>
+                    <li>Medium</li>
+                </ul>
+            </div>
+            <button>Connect Wallet</button>
+            <i id="sun" class="fas fa-sun"></i>
+            <div class="darkmode">
+                <i class="fas fa-moon"></i>
+            </div>
+        </nav>
+        <h1>CosmosCanvas</h1>
+        <div class="display">
+            <div class="dis1"></div>
+            <div class="dis2"></div>
+            <div class="dis3"></div>
+            <div class="dis4"></div>
+        </div>
+
+        <div class="audio-player">
+            <audio id="background-music" autoplay loop>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div id="mute-button" onclick="toggleMute()">
+                <i class="fas fa-volume-high"></i> <!-- Font Awesome icon for unmuted sound -->
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="timer">
+
+        <div class="countdown">
+            <div class="time">
+                <span id="days">00 |</span>
+                <span id="hours">00 |</span>
+                <span id="minutes">00 |</span>
+                <span id="seconds">00 |</span>
+            </div>
+            <div class="labels">
+                <span>Days |</span>
+                <span>Hours |</span>
+                <span>Minutes |</span>
+                <span>Seconds |</span>
+            </div>
+        </div>
+    </body>
+    </html>
+    </section>
+    <script src="cosmos.js"></script>
+    <script src="mute.js"></script>
+    <!-- <script src="timer.js"></script> -->
+</body>
+</html>
