@@ -103,7 +103,7 @@ button{
 h1{
     text-align: center;
     font-size: 60px;
-    color: white;
+    color: rgb(137, 119, 119);
     margin-top: 60px;
 }
 
@@ -111,7 +111,7 @@ h1{
 .audio-player{
     position: fixed;
     margin-left: auto;
-    margin-top: 35%;
+    margin-top: 30%;
 }
 
 .timer{
