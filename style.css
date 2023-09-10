@@ -93,6 +93,7 @@ button{
     display: flex;
     justify-content: flex-end;
     padding: 10px;
+    margin-left: 5px;
 }
 
 .display{
@@ -110,7 +111,7 @@ h1{
 .audio-player{
     position: fixed;
     margin-left: auto;
-    margin-top: 25%;
+    margin-top: 30%;
 }
 
 .timer{
