@@ -1,11 +1,8 @@
-const darkModeToggle = document.getElementById("dark-mode-toggle");
+
 const connectWalletButton = document.getElementById("connect-wallet");
 const walletAddress = document.getElementById("wallet-address");
 
-// Dark mode toggle functionality
-darkModeToggle.addEventListener("change", () => {
-    document.body.classList.toggle("dark-mode");
-});
+
 
 // Wallet connection functionality (you'll need to implement your wallet logic here)
 connectWalletButton.addEventListener("click", () => {

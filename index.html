@@ -8,28 +8,34 @@
     <title>CosmosCanvas</title>
 </head>
 <body>
-    <section class="mint">
+    <section id="mint-section" class="mint">
         <nav>
             <div class="ul">
                 <ul>
-                    <li>X.com |</li>
-                    <li>Opeansea |</li>
-                    <li>Medium</li>
+                    <li><a href="https://twitter.com/Cosmos_Canvas">X.com</a></li>
+                    <li><a href="#">Opeansea</a></li>
+                    <li><a href="#">Medium</a></li>
                 </ul>
             </div>
             <button>Connect Wallet</button>
-            <i id="sun" class="fas fa-sun"></i>
-            <div class="darkmode">
-                <i class="fas fa-moon"></i>
+
+            <div class="toggle-container">
+                <div class="moon-sun-icon" id="toggle-background">
+                    <i class="fas fa-moon"></i>
+                </div>
             </div>
+
         </nav>
+
         <h1>CosmosCanvas</h1>
-        <div class="display">
-            <div class="dis1"></div>
-            <div class="dis2"></div>
-            <div class="dis3"></div>
-            <div class="dis4"></div>
-        </div>
+       
+      
+            <div class="display">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
 
         <div class="audio-player">
             <audio id="background-music" autoplay loop>
@@ -62,8 +68,9 @@
     </body>
     </html>
     </section>
-    <script src="cosmos.js"></script>
+    <script src="darkmode.js"></script>
     <script src="mute.js"></script>
+     <!-- <script src="cosmos.js"></script> -->
     <!-- <script src="timer.js"></script> -->
 </body>
 </html>
